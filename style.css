@@ -21,6 +21,20 @@ body {
   /* align-items: center; */
 }
 
-label, input {
-  display: block;
+form {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* width: 800px; */
+  /* height: 100vh; */
+
+  /* align-items: center; */
+}
+
+.form-group{
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: inline-block;
 }
